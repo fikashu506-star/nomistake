@@ -45,7 +45,7 @@
   }
   var app = document.getElementById("app");
   var game = null, rain = null, attack = null, zero = null;
-  function escapeHtml(c){ return c.replace(/&/g,"&").replace(/</g,"<").replace(/>/g,">").replace(/"/g,"""); }
+  function escapeHtml(c){ var d=document.createElement("div"); d.textContent=c; return d.innerHTML; }
   function pickRandom(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
   function randomWords(n){ var out=[]; for(var i=0;i<n;i++){ out.push(pickRandom(WORD_POOL)); } return out.join(" "); }
   function openOverlay(innerHtml){

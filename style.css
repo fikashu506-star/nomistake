@@ -1,0 +1,30 @@
+:root{
+    --bg:#05070f;
+    --bg-2:#0a0e1a;
+    --surface:rgba(16,20,36,.78);
+    --surface-2:rgba(24,30,52,.88);
+    --surface-solid:#12182c;
+    --border:rgba(255,255,255,.08);
+    --border-strong:rgba(255,255,255,.16);
+    --text:#f4f6ff;
+    --text-dim:#9aa3c0;
+    --text-faint:#6b7494;
+    --accent:#a78bfa;
+    --accent-soft:#c4b5fd;
+    --accent-ink:#1e1035;
+    --accent-2:#34d399;
+    --accent-cyan:#22d3ee;
+    --error:#fb7185;
+    --gold:#fbbf24;
+    --radius-s:10px;
+    --radius-m:16px;
+    --radius-l:24px;
+    --radius-xl:28px;
+    --font-ui:'Sora', ui-sans-serif, system-ui, sans-serif;
+    --font-mono:'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+    --shadow-sm:0 8px 24px -12px rgba(0,0,0,.55);
+    --shadow-md:0 20px 50px -24px rgba(0,0,0,.7);
+    --shadow-lg:0 32px 80px -28px rgba(0,0,0,.85);
+    --glow-accent:0 0 40px -8px rgba(167,139,250,.35);
+    --glow-cyan:0 0 32px -6px rgba(34,211,238,.3);
+  }
